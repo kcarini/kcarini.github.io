@@ -1,6 +1,6 @@
 title: Kiri Carini M.S., PMP
 logo: /assets/img/IMG_7832.jpeg
 description: Welcome to my website.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
