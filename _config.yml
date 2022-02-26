@@ -1,6 +1,19 @@
 
 logo: /assets/img/name.jpg
 description: Welcome to my website.
+sidebar:
+  - name: Email
+    icon: fa fa-envelope
+    link: mailto:hello@kiricarini.com
+  - name:  GitHub
+    icon: fa fa-github-alt
+    link: https://github.com/kcarini
+  - name:  Twitter
+    icon: fa fa-twitter
+    link: https://twitter.com/kiricarini
+  - name:  LinkedIn
+    icon: fa fa-linkedin-square
+    link: https://www.linkedin.com/in/kcarini/
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
