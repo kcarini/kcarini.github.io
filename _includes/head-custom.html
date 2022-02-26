@@ -7,3 +7,42 @@
 <!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
 
 <!-- end custom head snippets -->
+<!DOCTYPE html>
+<head>
+<style>
+    body{ 
+    	margin: 0;
+    	padding: 0;
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+    .container{
+        width: 35%;
+        margin-left: auto; 
+		margin-right: 0;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;
+        padding: 12px 0 0px 0;
+	background: rgba(240, 255, 241);
+    }
+    .fixed-header{
+        top: 0;
+    }
+</style>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+              <h3> <a href="/">Portfolio</a>
+              |
+              <a href="/about.html">About</a>
+              |
+              <a href="/contact.html">Contact</a> </h3>
+            </nav>
+        </div>
+    </div>       
+</body>
+</html>
