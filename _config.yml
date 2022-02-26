@@ -1,19 +1,19 @@
-
-logo: /assets/img/name.jpg
-description: Welcome to my website.
+title: Glenn Ingram
+logo: /assets/img/logo.png
+description: Cartography & Planning Portfolio
 sidebar:
   - name: Email
     icon: fa fa-envelope
-    link: mailto:hello@kiricarini.com
+    link: mailto:gi.ingram001@gmail.com
   - name:  GitHub
     icon: fa fa-github-alt
-    link: https://github.com/kcarini
+    link: https://github.com/glenningram/glenningram.github.io
   - name:  Twitter
     icon: fa fa-twitter
-    link: https://twitter.com/kiricarini
+    link: https://twitter.com/_glenningram
   - name:  LinkedIn
     icon: fa fa-linkedin-square
-    link: https://www.linkedin.com/in/kcarini/
+    link: https://www.linkedin.com/in/glenn-ingram/
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
