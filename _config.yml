@@ -14,6 +14,6 @@ sidebar:
   - name:  LinkedIn
     icon: fa fa-linkedin-square
     link: https://www.linkedin.com/in/kcarini/
-show_downloads: false
+show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
