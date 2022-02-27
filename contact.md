@@ -8,5 +8,4 @@ Topics I can speak on include:
 - how to tell stories with your data
 - women in tech, from my perspective
 
-![holding whiteboard and speaking](/assets/img/speaking.jpg)
-<img src="speaking.jpg" width="200" height="100">
+<img src="/assets/img/speaking.jpg" width="300" height="200">
