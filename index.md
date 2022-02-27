@@ -10,9 +10,3 @@ I am an experienced program manager with over 10 years of GIS experience. I work
 Prior to pivoting to full-time GIS work, I managed over $150 million in grant funds at the state and local level including bond funds, FEMA HMGP & PA and HUD CDBG grants for capital construction projects - transportation infrastructure, public facilities and homeowner buy outs, and home repair.
 
 
-### Places to connect with me:
-
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--4245--2318-green?logo=orcid)](https://orcid.org/0000-0002-9630-0432)
-
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kcarini/)
