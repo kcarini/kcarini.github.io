@@ -8,4 +8,4 @@ Topics I can speak on include:
 - how to tell stories with your data
 - women in tech, from my perspective
 
-![holding whiteboard and speaking](speaking.jpg)
+![holding whiteboard and speaking](https://github.com/kcarini/kcarini.github.io/upload/main/assets/img/speaking.jpg)
