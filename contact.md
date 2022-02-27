@@ -9,3 +9,4 @@ Topics I can speak on include:
 - women in tech, from my perspective
 
 ![holding whiteboard and speaking](/assets/img/speaking.jpg)
+<img src="speaking.jpg" width="200" height="100">
