@@ -14,5 +14,9 @@ sidebar:
   - name:  LinkedIn
     icon: fa fa-linkedin-square
     link: https://www.linkedin.com/in/kcarini/
+  - name:  Website
+    icon: fa-brands fa-wordpress
+    link: https://kiricarini.com/
+   
 google_analytics:
 theme: jekyll-theme-minimal
