@@ -8,6 +8,4 @@ News Release: [State of the Map US Conference comes to campus](https://new.libra
 
 ![image info](https://github.com/kcarini/kcarini.github.io/blob/main/assets/img/state-of-map-us-conference.png)
 
-![image info](https://github.com/kcarini/kcarini.github.io/blob/main/assets/img/sotmus_catalyst.jpeg)
-
-<img src="https://github.com/kcarini/kcarini.github.io/blob/main/assets/img/sotmus_catalyst.jpeg" alt="isolated" width="200"/>
+<img src="https://github.com/kcarini/kcarini.github.io/blob/main/assets/img/sotmus_catalyst.jpeg" alt="isolated" width="400"/>
