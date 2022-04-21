@@ -6,4 +6,4 @@ I submitted a bid to host State of the Map US at the University of Arizona in Fa
 
 News Release: [State of the Map US Conference comes to campus](https://new.library.arizona.edu/news/state-map-us-conference-comes-campus)
 
-![image info](https://github.com/kcarini/kcarini.github.io/blob/main/assets/img/state-of-map-us-conference.png)      <img src="https://github.com/kcarini/kcarini.github.io/blob/main/assets/img/sotmus_catalyst.jpeg" alt="isolated" width="400"/>
+<img src="/assets/img/state-of-map-us-conference.png" width="300" height="200">.  <img src="/assets/img/sotmus_catalyst.jpeg" width="300" height="200">.
