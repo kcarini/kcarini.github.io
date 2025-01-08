@@ -1,22 +1,8 @@
-title: Kiri Carini
-logo: /assets/img/headerphoto.jpg
-description: Welcome to my website
-sidebar:
-  - name: Email
-    icon: fa fa-envelope
-    link: mailto:hello@kiricarini.com
-  - name:  GitHub
-    icon: fa fa-github-alt
-    link: https://github.com/kcarini
-  - name:  Twitter
-    icon: fa fa-twitter
-    link: https://twitter.com/kiricarini
-  - name:  LinkedIn
-    icon: fa fa-linkedin-square
-    link: https://www.linkedin.com/in/kcarini/
-  - name:  Website
-    icon: fa fa-wordpress
-    link: https://kiricarini.com/
-   
-google_analytics:
-theme: jekyll-theme-minimal
+title: "My Website"
+description: "A simple blog powered by GitHub Pages and Jekyll"
+theme: minima
+author: 
+  name: "Kiri Carini"
+  email: "hello@kiricarini.com"
+baseurl: "" # Leave this empty for the root domain
+url: "https://kiricarini.com" # Your custom domain
