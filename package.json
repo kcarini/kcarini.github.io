@@ -1,0 +1,21 @@
+{
+  "name": "kcarini.github.io",
+  "version": "1.0.0",
+  "description": "This page is an adaptation of the [\"Minimal Theme\"](https://github.com/pages-themes/minimal)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcarini/kcarini.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kcarini/kcarini.github.io/issues"
+  },
+  "homepage": "https://github.com/kcarini/kcarini.github.io#readme"
+}
