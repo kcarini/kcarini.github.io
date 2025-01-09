@@ -4,6 +4,8 @@
   "description": "This page is an adaptation of the [\"Minimal Theme\"](https://github.com/pages-themes/minimal)",
   "main": "index.js",
   "scripts": {
+    "dev": "npx myst start",
+    "build": "npx myst build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
