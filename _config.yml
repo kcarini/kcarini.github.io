@@ -1,6 +1,6 @@
 title: "My Website"
 description: "A simple blog powered by GitHub Pages and Jekyll"
-theme: minima
+theme: jekyll-theme-minimal
 author: 
   name: "Kiri Carini"
   email: "hello@kiricarini.com"
