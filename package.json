@@ -1,7 +1,7 @@
 {
   "name": "kcarini.github.io",
   "version": "1.0.0",
-  "description": "This page is an adaptation of the [\"Minimal Theme\"](https://github.com/pages-themes/minimal)",
+  "description": "This site uses nextra blog.",
   "main": "index.js",
 "scripts": {
   "dev": "next",
