@@ -20,5 +20,7 @@ title = "Home"
   bio = "I work at the intersection of GIS, communication, and education."
   links = [
     { linkedin = "https://www.linkedin.com/in/kcarini/" },
-    { github = "https://github.com/kcarini" }
+    { github = "https://github.com/kcarini" },
+    { mastodon = "https://mstdn.social/@kiricarini" },
+    { bluesky = "https://bsky.app/profile/kiricarini.com" }
   ]
