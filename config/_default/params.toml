@@ -16,8 +16,7 @@ enableCodeCopy = false
   showScrollToTop = true
 
 [homepage]
-  layout = "hero"
-  homepageImage = "hero-mountain.jpg"
+  layout = "profile"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
