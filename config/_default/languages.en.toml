@@ -1,0 +1,24 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Kiri Carini"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Geospatial scientist, mapper, and outdoor enthusiast."
+  copyright = "© {year} Kiri Carini. All rights reserved."
+
+  [params.author]
+  name = "Kiri Carini"
+  image = "headshot-alley.png"
+  imageQuality = 96
+  headline = "Geospatial scientist and mapper"
+  bio = "I work at the intersection of GIS, web mapping, and environmental science."
+  links = [
+    { linkedin = "https://www.linkedin.com/in/kcarini/" },
+    { github = "https://github.com/kcarini" }
+  ]

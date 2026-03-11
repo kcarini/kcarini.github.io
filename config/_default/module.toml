@@ -1,0 +1,3 @@
+# Blowfish theme as Hugo module (no submodule needed)
+[[imports]]
+  path = "github.com/nunocoracao/blowfish/v2"
