@@ -1,0 +1,62 @@
+/* Custom styles for kiricarini.com – Blowfish overrides */
+
+/* Hero section: ensure full-bleed background and readable content */
+.hero {
+  background-color: var(--color-neutral-900, #171717);
+}
+.hero img[alt=""] {
+  object-position: center center;
+}
+.hero .prose-invert a {
+  color: var(--color-primary-400, #a78bfa);
+  text-decoration: underline;
+}
+.hero .prose-invert a:hover {
+  color: var(--color-primary-300, #c4b5fd);
+}
+
+/* Slightly larger base font and line height for readability */
+html {
+  font-size: 18px;
+  line-height: 1.6;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+/* Tighter, clearer headings */
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Card and list spacing */
+.prose ul, .prose ol {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+/* Ensure images in content don’t overflow */
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+/* Header nav: clearer and more compact */
+header nav a {
+  font-weight: 500;
+}
+
+/* Footer spacing */
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-neutral-200, #e5e5e5);
+}
+html.dark footer {
+  border-top-color: var(--color-neutral-700, #404040);
+}

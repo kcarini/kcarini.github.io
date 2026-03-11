@@ -17,6 +17,7 @@ enableCodeCopy = false
 
 [homepage]
   layout = "hero"
+  homepageImage = "hero-mountain.jpg"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
