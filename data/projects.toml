@@ -1,0 +1,24 @@
+# Projects table (n9o-style). Add logo images to assets/projects/ and reference by filename.
+# references: list of { label = "site"|"github"|"npm"|etc., url = "..." }
+
+[[projects]]
+  title = "Web Map Chooser"
+  description = "An interactive tool for comparing and selecting different web map styles and providers."
+  status = "Active"
+  logo = ""  # optional: e.g. "projects/web-map-chooser.png"
+  [[projects.references]]
+    label = "site"
+    url = "https://web-map-chooser.vercel.app/"
+  [[projects.references]]
+    label = "github"
+    url = "https://github.com/kcarini/web-map-chooser"
+
+# Add more projects below, e.g.:
+# [[projects]]
+#   title = "Another Project"
+#   description = "Short description."
+#   status = "Active"
+#   logo = "projects/another-logo.png"
+#   [[projects.references]]
+#     label = "github"
+#     url = "https://github.com/..."

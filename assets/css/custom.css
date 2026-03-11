@@ -60,3 +60,18 @@ footer {
 html.dark footer {
   border-top-color: var(--color-neutral-700, #404040);
 }
+
+/* Projects table (n9o-style) */
+section table {
+  font-size: 0.95rem;
+}
+section table a {
+  color: var(--color-primary-600, #7c3aed);
+  text-decoration: none;
+}
+section table a:hover {
+  text-decoration: underline;
+}
+html.dark section table a {
+  color: var(--color-primary-400, #a78bfa);
+}

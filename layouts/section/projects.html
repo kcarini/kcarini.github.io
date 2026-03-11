@@ -1,0 +1,60 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  <article class="px-4">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold">{{ .Title }}</h1>
+    </header>
+
+    {{ if .Content }}
+      <div class="prose dark:prose-invert mb-10 max-w-none">
+        {{ .Content }}
+      </div>
+    {{ end }}
+
+    {{ $projects := site.Data.projects.projects }}
+    {{ if $projects }}
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse text-left">
+          <thead>
+            <tr class="border-b border-neutral-200 dark:border-neutral-700">
+              <th class="py-3 pr-4 font-semibold text-neutral-700 dark:text-neutral-300" scope="col">Logo</th>
+              <th class="py-3 pr-4 font-semibold text-neutral-700 dark:text-neutral-300" scope="col">Title</th>
+              <th class="py-3 pr-4 font-semibold text-neutral-700 dark:text-neutral-300" scope="col">Description</th>
+              <th class="py-3 font-semibold text-neutral-700 dark:text-neutral-300" scope="col">References</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $projects }}
+              <tr class="border-b border-neutral-100 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-800/50">
+                <td class="py-4 pr-4 align-top">
+                  {{ if .logo }}
+                    {{ with resources.Get .logo }}
+                      <img src="{{ .RelPermalink }}" alt="" class="h-12 w-12 object-contain rounded" />
+                    {{ end }}
+                  {{ else }}
+                    <span class="text-neutral-400 dark:text-neutral-500">—</span>
+                  {{ end }}
+                </td>
+                <td class="py-4 pr-4 align-top">
+                  <span class="font-medium">{{ .title }}</span>
+                  {{ with .status }}
+                    <span class="ml-2 text-sm text-neutral-500 dark:text-neutral-400">{{ . }}</span>
+                  {{ end }}
+                </td>
+                <td class="py-4 pr-4 align-top text-neutral-600 dark:text-neutral-400">
+                  {{ .description }}
+                </td>
+                <td class="py-4 align-top">
+                  {{ range .references }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline mr-3">{{ .label }}</a>
+                  {{ end }}
+                </td>
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    {{ end }}
+  </article>
+{{ end }}

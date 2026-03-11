@@ -3,6 +3,4 @@ title: "Projects"
 slug: "projects"
 ---
 
-Here are selected projects in GIS, web mapping, and environmental data.
-
-More writeups coming soon—reach out if you'd like to know more about any of these.
+Selected work in GIS, web mapping, and environmental data. Most are small tools or experiments—great opportunities to try something in the real world and learn from it.
