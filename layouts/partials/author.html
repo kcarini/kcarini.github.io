@@ -1,0 +1,28 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+
+{{ with .Site.Params.Author.image }}
+  {{ $authorImage := "" }}
+  {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+    {{ $authorImage = resources.GetRemote . }}
+  {{ else }}
+    {{ $authorImage = resources.Get . }}
+  {{ end }}
+  {{ if $authorImage }}
+    {{ $final := $authorImage }}
+    {{ $squareImage := $authorImage }}
+    {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
+      {{ $final = $authorImage.Fill "192x192" }}
+      {{ $shortSide := int (math.Min $authorImage.Width $authorImage.Height) }}
+      {{ $squareImage = $authorImage.Crop (printf "%dx%d" $shortSide $shortSide) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ with .Site.Params.Author.name | markdownify }}
+  {{ i18n "author.byline_title" | markdownify }}
+  {{ . }}
+{{ end }}
+{{ with .Site.Params.Author.bio | markdownify }}
+  {{ . }}
+{{ end }}
+{{ partialCached "author-links.html" . }}
