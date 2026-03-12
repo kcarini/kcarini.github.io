@@ -8,7 +8,7 @@
   logo = ""  # optional: e.g. "projects/web-map-chooser.png"
   [[projects.references]]
     label = "site"
-    url = "https://web-map-chooser.vercel.app/"
+    url = "https://kiricarini.com/web-map-chooser/"
   [[projects.references]]
     label = "github"
     url = "https://github.com/kcarini/web-map-chooser"
