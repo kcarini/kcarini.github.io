@@ -5,7 +5,7 @@
   title = "Web Map Chooser"
   description = "An interactive tool for comparing and selecting different web map styles and providers."
   status = "Active"
-  logo = ""  # optional: e.g. "projects/web-map-chooser.png"
+  logo = "web-map-choose-table-logo.png"  # stored in assets/
   [[projects.references]]
     label = "site"
     url = "https://kiricarini.com/web-map-chooser/"
