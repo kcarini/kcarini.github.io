@@ -17,8 +17,8 @@ recentTitle: "Latest writing"
 recentRows: 2
 ---
 
-Welcome! I'm Kiri, a geospatial analyst and developer who enjoys turning complex environmental datasets into maps, stories, and tools people can actually use.
+Welcome! I’m Kiri.
 
-I work at the intersection of **GIS**, **web mapping**, and **environmental science**—and when I'm not at a computer, I'm usually outside hiking, birding, or skiing.
+I spend a lot of time thinking about how we understand the world—through maps, data, and the stories we tell about the places around us. My work often explores the intersection of geospatial technology, earth observation, and environmental change, but this space is also where I share ideas, questions, and things I’m learning along the way.
 
-Below you'll find a selection of **projects** and **recent blog posts**. Use the navigation above to see my full CV or dive into specific work.
+When I’m not at a computer, you’ll usually find me outside—hiking, birding, camping, and exploring new places with my family.
